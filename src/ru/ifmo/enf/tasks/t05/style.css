@@ -1,0 +1,15 @@
+#container {
+height: 600px;
+width: 1000px;
+border:1px black solid;
+position: relative;
+}
+
+#container div {
+border: 1px black solid;
+position: absolute;
+
+}
+#container .active {
+	border: 2px black solid;
+}
