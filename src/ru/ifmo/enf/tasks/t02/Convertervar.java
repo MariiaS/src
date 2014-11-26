@@ -174,7 +174,7 @@ public class Convertervar extends JFrame {
             }
         });
 
-        //Set frame parameters
+       
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setContentPane(mainPane);
         setResizable(true);
@@ -217,7 +217,6 @@ public class Convertervar extends JFrame {
      * Класс данных: короткого имени, стоимости и полного имени элементов
      */
     private class Entity {
-        //Just fields and getters
         private String shortName;
         private Double costOfProd;
         private String fullProdName;
@@ -228,7 +227,7 @@ public class Convertervar extends JFrame {
             this.fullProdName = fullProdName;
         }
 
-        //Use mark name in Combo Box
+        
         @Override
         public String toString() {
             return "(" + shortName + ") " + fullProdName;
